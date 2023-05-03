@@ -1,0 +1,64 @@
+- text: >
+    discord.com
+    client_id=840643401846147428;
+    client_secret=iodDmFSUDXXirwgOVc15vSBKxDt8n-25;
+  client_id: "840643401846147428"
+  client_secret: iodDmFSUDXXirwgOVc15vSBKxDt8n-25
+
+
+- text: >
+    "elasticsearch": {
+    -    "url": "http://localhost:9200/",
+    +    "url": "https://elastic:p92iamsUdFsNDn4JMooOlHHH@802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io:9243/",
+      "index": "polyglot-test"}
+
+  connection_uri: https://elastic:p92iamsUdFsNDn4JMooOlHHH@802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io:9243
+  scheme: https
+  username: elastic
+  password: p92iamsUdFsNDn4JMooOlHHH
+  host: 802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io
+  port: "9243"
+
+# Test special characters in password
+- text: >
+    "elasticsearch": {
+    -    "url": "http://localhost:9200/",
+    +    "url": "https://elastic:p92!@msUdFsNDn4JMooOlHHH@802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io:9243/",
+      "index": "polyglot-test"}
+
+  connection_uri: https://elastic:p92!@msUdFsNDn4JMooOlHHH@802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io:9243
+  scheme: https
+  username: elastic
+  password: p92!@msUdFsNDn4JMooOlHHH
+  host: 802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io
+  port: "9243"
+
+# Test detection in md files
+- text: >
+    "elasticsearch": {
+    -    "url": "http://localhost:9200/",
+    +    "url": "https://elastic:p92!@msUdFsNDn4JMooOlHHH@802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io:9243/",
+      "index": "polyglot-test"}
+
+  connection_uri: https://elastic:p92!@msUdFsNDn4JMooOlHHH@802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io:9243
+  scheme: https
+  username: elastic
+  password: p92!@msUdFsNDn4JMooOlHHH
+  host: 802bb6d77d8244c482aa8ee1f1f4d555.eu-central-1.aws.cloud.es.io
+  port: "9243"
+  filename: some_file.md
+
+
+- text: >
+    facebook String appId = "294790898041575"; String appSecret = "ce3f9f0362bbe5ab01dfc8ee565e4372"
+  client_id: "294790898041575"
+  client_secret: "ce3f9f0362bbe5ab01dfc8ee565e4372"
+- text: >
+    String fb_id = "294790898041575"; String fb_secret = "ce3f9f0362bbe5ab01dfc8ee565e4372"
+  client_id: "294790898041575"
+  client_secret: "ce3f9f0362bbe5ab01dfc8ee565e4372"
+- text: >
+    facebook String appId = "294790898041575"; String appSecret = "ce3f9f0362bbe5ab01dfc8ee565e4372"
+  client_id: "294790898041575"
+  client_secret: "ce3f9f0362bbe5ab01dfc8ee565e4372"
+  filename: some_file.md
