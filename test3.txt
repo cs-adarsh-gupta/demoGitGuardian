@@ -1,0 +1,70 @@
+- text: >
+    Owned by @GitGuard
+    App ID 36327
+    Client ID Iv1.923233af7a5c81af
+    Client secret 7dfc7a8b97409e216c35b21e4008938d599def9a
+  client_id: Iv1.923233af7a5c81af
+  client_secret: 7dfc7a8b97409e216c35b21e4008938d599def9a
+
+- text: >
+    gitalk:
+      clientID: c151f93feb034ed7da85
+      clientSecret: 0fd3f9942d1e65a267a5541ee1fc31d78d8aefda
+  client_id: c151f93feb034ed7da85
+  client_secret: 0fd3f9942d1e65a267a5541ee1fc31d78d8aefda
+- text: >
+    gitalk:
+      clientID: c151f93feb034ed7da85
+      clientSecret: 0fd3f9942d1e65a267a5541ee1fc31d78d8aefda
+
+  client_id: c151f93feb034ed7da85
+  client_secret: 0fd3f9942d1e65a267a5541ee1fc31d78d8aefda
+  filename: some_file.md
+
+- text: >
+    {"installed":{"client_id":"332292536747-qbemitq8128k6gv5r3dddddd0jmadcnm.apps.googleusercontent.com","project_id":"test-1551099712230","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"daAKAFW-bt07isOxWwwPP0c-","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}
+  client_id: 332292536747-qbemitq8128k6gv5r3dddddd0jmadcnm.apps.googleusercontent.com
+  client_secret: daAKAFW-bt07isOxWwwPP0c-
+
+- text: >
+    @@ -0,0 +1,10 @@
+    +package com.qa.jira;
+    +
+    +public class JiraUtil {
+    +
+    +   public static final String JIRA_URL = "https://ggfoundme.atlassian.net";
+    +
+    +   public static final String JIRA_USERNAME = "ggfoundme2007@gmail.com";
+    +   public static final String JIRA_PASSWORD = "VDOheDe1sSCeGkuTARhkFDE2";
+    +   public static final String JIRA_PROJECT = "VNTPRJCT12";
+    +}
+
+  host: https://ggfoundme.atlassian.net
+  username: ggfoundme2007@gmail.com
+  token: VDOheDe1sSCeGkuTARhkFDE2
+
+- text: >
+    +jira.myAccessToken=khEPIVYz26ZfGL9bYTEl4398
+     jira.username=hi.myleak@gmail.com
+     jira.sprintUri= https://leakyday.atlassian.net/rest
+
+  token: khEPIVYz26ZfGL9bYTEl4398
+  username: hi.myleak@gmail.com
+  host: https://leakyday.atlassian.net
+- text: >
+    @@ -0,0 +1,10 @@ 
+    +package com.qa.jira; 
+    + 
+    +public class JiraUtil { 
+    + 
+    +   public static final String JIRA_URL = "https://ggfoundme.atlassian.net"; 
+    + 
+    +   public static final String JIRA_USERNAME = "ggfoundme2007@gmail.com"; 
+    +   public static final String JIRA_PASSWORD = "VDOheDe1sSCeGkuTARhkFDE2"; 
+    +   public static final String JIRA_PROJECT = "VNTPRJCT12"; 
+    +}
+
+  host: https://ggfoundme.atlassian.net
+  username: ggfoundme2007@gmail.com
+  token: VDOheDe1sSCeGkuTARhkFDE2
+  filename: some_file.md
